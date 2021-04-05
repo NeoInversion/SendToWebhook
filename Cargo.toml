@@ -1,6 +1,6 @@
 [package]
 name = "send-to-webhook"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Inversion"]
 edition = "2018"
 
