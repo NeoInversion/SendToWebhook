@@ -20,6 +20,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
         else if input.trim_end().eq("STW_CHANGE") {
             println!("Enter webhook URL:");
+            url.clear();
             read_to_string(&mut url);
         }
         else {
